@@ -1,10 +1,10 @@
 const { exec } = require('child_process');
 
 const musicFiles = [
-  '5min/musik/kanjud.mp3',
-  '5min/musik/ror.mp3',
-  '5min/musik/tiriz.mp3',
-  '5min/musik/suu.mp3'
+  'musik/kanjud.mp3',
+  'musik/ror.mp3',
+  'musik/tiriz.mp3',
+  'musik/suu.mp3'
 ];
 
 const playMusicSequentially = (index) => {
